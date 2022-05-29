@@ -1,0 +1,28 @@
+/* body {
+    padding-top: 70px;
+} */
+div h2 {
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+div h4 {
+    font-size: 30px;
+    padding-top: 3px;
+}
+
+#navmenu,
+li {
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 796px) {
+    #navmenu ul li:hover {
+        padding-left: 8px;
+    }
+}
+@media (min-width: 992px) {
+    #navmenu ul li{
+        display: none;
+    }
+}
